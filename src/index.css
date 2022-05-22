@@ -1,14 +1,72 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+/* ---------------------------- */
+/* Webpage system */
+/* ---------------------------- */
+/*
+--- 01 Typography System
+
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- FONT WEIGHTS
+Default: 400
+Semi-bold: 600
+Bold: 700
+
+- LINE HEIGHTS
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph: 1.6
+Large: 1.8
+
+- LETTER SPACING
+-0.5px
+0.75px
+
+
+--- 02 Colors
+
+
+- GREY COLOR: #555, #333, #888, #6f6f6f
+
+
+--- 03 Images
+- STOCK PHOTOS: unsplash.com
+
+--- 04 Icons
+
+--- 05 Shadows
+
+--- 06 Border-radius
+Default: 9px
+Medium: 11px
+
+--- 07 Whitespace
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap");
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 html {
-  font-family: "Noto Sans JP", sans-serif;
+  /* Percentage of user's browser font-size setting */
+  /* This is 10px */
+  font-size: 62.5%;
+
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 1;
 }
 
 body {
-  margin: 0;
-  background-color: #3f3f3f;
+  background-color: fff;
 }
