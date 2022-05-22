@@ -1,0 +1,7 @@
+.sectionTitle {
+  composes: sectionTitle from './ProductDetail.module.css';
+}
+
+.productList {
+  font-size: 2.4rem;
+}

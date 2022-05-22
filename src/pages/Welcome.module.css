@@ -1,0 +1,7 @@
+.sectionTitle {
+  composes: sectionTitle from './ProductDetail.module.css';
+}
+
+.secondHeader {
+  font-size: 3rem;
+}
