@@ -25,7 +25,9 @@ Large: 1.8
 
 
 --- 02 Colors
-
+BG Color: #044599
+Border Bottom: #95bcf0
+Font Color: #042b5f
 
 - GREY COLOR: #555, #333, #888, #6f6f6f
 
@@ -49,12 +51,13 @@ Medium: 11px
 
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #042b5f;
 }
 
 html {
@@ -62,11 +65,16 @@ html {
   /* This is 10px */
   font-size: 62.5%;
 
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   line-height: 1;
 }
 
 body {
-  background-color: fff;
+  background-color: #e0e9f5;
+}
+
+main {
+  margin-top: 7rem;
+  text-align: center;
 }
